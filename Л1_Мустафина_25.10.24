@@ -1,0 +1,51 @@
+/*Лабораторная работа №1/Билет 22*/
+/*1
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+    float A, B, C, D, R, S;
+    // Ввод данных
+    printf("Dlina (A): ");
+    scanf("%f", &A);
+    
+    printf("Dlina (B): ");
+    scanf("%f", &B);
+    
+    printf("Storona bok (C): ");
+    scanf("%f", &C);
+
+    printf("Storona bok (D): %.0f", C);
+    printf("\n");
+    R = sqrt(A * B)/2;
+    S = R*(A + B);
+    // Вывод полученныx значений
+
+    printf("Radius: %f", R);
+    printf("\n");
+    printf("Plosad: %f", S);
+    return 0;}*/
+
+
+/*2
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+    float a, S, r, R; // r - вписанная, R - описанная
+    printf("Storona(a): ");
+    scanf("%f", &a);
+
+    S = (a * a * sqrt(3))/4;
+    r = a / (2*sqrt(3));
+    R = a / sqrt(3);
+
+    printf("Plosad: %f", S);
+    printf("\n");
+    printf("Radius(r): %f", r);
+    printf("\n");
+    printf("Radius(R): %f", R);
+    return 0;
+    }*/
+
+
