@@ -1,4 +1,4 @@
-/*Лабораторная работа №1/Билет 22/ Язык C*/
+/* Лабораторная работа №1/Билет 22/ Язык C */
 /*1
 #include <stdio.h>
 #include <math.h>
@@ -26,7 +26,7 @@ int main () {
     printf("Plosad: %f", S);
     return 0;}*/
 
-
+/* Язык C */
 /*2
 #include <stdio.h>
 #include <math.h>
