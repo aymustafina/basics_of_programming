@@ -1,0 +1,64 @@
+///Лабараторная работа 01.11.2024 / Билет 22 / Задача 1
+//Решить на C. Определить является ли треугольник с сторонами A, B, C одновременно и равнобедренным и равносторонним
+/*1*//*
+#include <stdio.h>
+#include <math.h>
+
+int main () 
+   {
+   float A, B, C;
+   // Ввод данных
+   printf("Storona (A): ");
+   scanf("%f", &A);
+
+   printf("Storona (B): ");
+   scanf("%f", &B);
+
+   printf("Storona (C): ");
+   scanf("%f", &C);
+   //Проверим на равносторннесть и равнобедренность
+      if (A <= 0 || B <= 0 || C <= 0) {
+        printf("Storoni +.\n");
+    } else 
+    if (A == B && B == C) {
+        printf("Treugolnic ravnobedrennyi i ravnostoronniy.\n");
+    } else 
+    if (A == B || B == C || A == C) {
+        printf("Treugolnic ravnobedrennyi i NE ravnostoronniy.\n");
+    } else 
+    {
+        printf("NE.\n");
+    }
+   
+   }*/
+
+//Лабораторная работа 01.11.2024. Билет 22/ 2 задача
+//Решить на C++. Дано уравнение прямой вида A*x + B*y + C = 0. 
+//Проверить, проходит ли она через начало координат
+/*2
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+int main() {
+    // Объявляем переменные 
+    double A, B, C;
+
+    cout << "Tocska A: ";
+    cin >> A;
+    cout << "Tocska B: ";
+    cin >> B;
+    cout << "Tocska C: ";
+    cin >> C;
+
+    //проверим проходит ли она через начало
+    //С должно быть равно 0, тк оно отвечает за прохождение через начало координат 
+    if (C == 0) {
+        std::cout << "Pramay prohodit." << std::endl;
+    } else {
+        std::cout << "Pramay NE prohodit." << std::endl;
+    }
+
+    return 0;
+
+}*/
